@@ -15,6 +15,8 @@ This project demonstrates the implementation of a Library Management System usin
 
 # Project Objective
 **1. Database Setup**
+![library_erd](https://github.com/user-attachments/assets/4eabd04d-8264-4e5d-998c-b7fdc8343910)
+
 **Database Creation:** Created a database named library_db. 
 **Table Creation:** Created tables for branches, employees, members, books, issued status, and return status. Each table includes relevant columns and relationships.
 
