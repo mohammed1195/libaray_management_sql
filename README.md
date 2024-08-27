@@ -91,4 +91,4 @@ CREATE TABLE return_status
             return_date DATE,
             return_book_isbn VARCHAR(50),
             FOREIGN KEY (return_book_isbn) REFERENCES books(isbn)
-);```
+);
