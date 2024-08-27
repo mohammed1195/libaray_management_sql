@@ -343,7 +343,9 @@ WHERE member_id IN (SELECT
                     )
 ;
 
-SELECT * FROM active_members;```
+SELECT * FROM active_members;
+```
+
 **Task 17: Find Employees with the Most Book Issues Processed**
 **Write a query to find the top 3 employees who have processed the most book issues. Display the employee name, number of books processed, and their branch.**
 ```sql
@@ -358,7 +360,9 @@ ON e.emp_id = ist.issued_emp_id
 JOIN
 branch as b
 ON e.branch_id = b.branch_id
-GROUP BY 1, 2```
+GROUP BY 1, 2
+```
+
 **Task 18: Identify Members Issuing High-Risk Books**
 Write a query to identify members who have issued books more than twice with the status "damaged" in the books table. Display the member name, book title, and the number of times they've issued damaged books.
 
@@ -411,7 +415,8 @@ CALL issue_book('IS155', 'C108', '978-0-553-29698-2', 'E104');
 CALL issue_book('IS156', 'C108', '978-0-375-41398-8', 'E104');
 
 SELECT * FROM books
-WHERE isbn = '978-0-375-41398-8'```
+WHERE isbn = '978-0-375-41398-8'
+```
 
 **Task 20: Create Table As Select (CTAS) Objective:** Create a CTAS (Create Table As Select) query to identify overdue books and calculate fines.
 
