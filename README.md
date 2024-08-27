@@ -12,7 +12,8 @@ This project demonstrates the implementation of a Library Management System usin
 3.**CTAS (Create Table As Select)**: Utilize CTAS to create new tables based on query results.
 4.**Advanced SQL Queries**: Develop complex queries to analyze and retrieve specific data.
 
-```CREATE DATABASE library_db;
+```sql
+CREATE DATABASE library_db;
 
 DROP TABLE IF EXISTS branch;
 CREATE TABLE branch
